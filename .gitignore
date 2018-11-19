@@ -1,0 +1,18 @@
+*/new/*
+!.gitignore
+
+# Modules / Simulations  (Sims have naming structure: [name]_Sim)
+
+!UART_Test*
+
+!UART_Trans*
+!ClockDiv*
+!ShiftReg*
+!TransFSM*
+
+!UART_Rec*
+!RecFSM*
+!BitStreamReg*
+
+# Constraints
+!UART_Constraints.xdc
