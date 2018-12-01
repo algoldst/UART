@@ -12,7 +12,8 @@
 // packetSize: # bits in bitstream
 // cycleDiv: sclk = (1/100)clk
 module UART_Rec #(parameter packetSize=16, cycleDiv=100)(
-    input clk, bsIn, recSig,
+    input clk, //clk from PMOD pin
+    input bsIn, recSig,
     output [packetSize-1:0] data
     );
 
