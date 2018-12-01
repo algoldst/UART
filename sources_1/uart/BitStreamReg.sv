@@ -23,7 +23,7 @@ always_ff @(posedge clk)
     begin
     cycleCounter++;
     HERE=0;
-    if(cycleCounter == cycleDiv/2) //at the halfway point
+    if(cycleCounter == 20) //at the halfway point
         begin
         HERE = 1;
         
